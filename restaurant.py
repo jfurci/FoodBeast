@@ -6,7 +6,7 @@ class Restaurant:
     """
     __slots__ = ('_google_url', '_name', '_price_range', '_tags', '_dress_code', '_notes')
 
-    def __init__(self, google_url: str, name: Optional[str], price_range: Optional[str],
+    def __init__(self, google_url: str, name: str, price_range: Optional[str],
                  tags: Optional[list[str]], dress_code: Optional[str], notes: Optional[str]):
         """
         Constructor.
